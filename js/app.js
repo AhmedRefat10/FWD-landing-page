@@ -36,7 +36,8 @@ function mainFunction() {
 			// if the section in view
 			if (positionFromTop >= 0 && positionFromTop <= 260) {
 				// add 'your-active-calss' to the section
-				sections[i].classList.add("your-active-class")
+				sections[i].classList.add("your-active-class");
+                                li[i].classList.add('menu-link-on-view');
 			} else {
 				// if any section is not in the view then reomve the active class
 				sections[i].classList.remove("your-active-class")
