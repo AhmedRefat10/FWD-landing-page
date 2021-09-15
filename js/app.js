@@ -37,11 +37,11 @@ function mainFunction() {
 			if (positionFromTop >= 0 && positionFromTop <= 260) {
 				// add 'your-active-calss' to the section
 				sections[i].classList.add("your-active-class");
-                                li[i].classList.add('menu-link-on-view');
+                                li.classList.add('menu-link-on-view');
 			} else {
 				// if any section is not in the view then reomve the active class
 				sections[i].classList.remove("your-active-class");
-                                li[i].classList.remove('menu-link-on-view') 
+                                li.classList.remove('menu-link-on-view') 
 			}
 		}
 		// call the addActiveClass function when scroll
