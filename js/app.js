@@ -39,13 +39,13 @@ function mainFunction() {
 				sections[i].classList.add("your-active-class");
                            
                                 if (li.textContent = sections[i].getAttribute('data-nav')) {   
-                                  li.classList.add('menu-link-on-view');
+                                  li[i].classList.add('menu-link-on-view');
                                 } 
                                
 			} else {
 				// if any section is not in the view then reomve the active class
 				sections[i].classList.remove("your-active-class");
-                                li.classList.remove('menu-link-on-view');
+                                li[i].classList.remove('menu-link-on-view');
 			}
 		}
 		// call the addActiveClass function when scroll
