@@ -81,12 +81,17 @@ section {
     color: #000;
 }
 
-.navbar__menu .menu__link:hover, .menu-link-on-view {
+.navbar__menu .menu__link:hover{
     background: #333;
     color: #fff;
     transition: ease 0.3s all;
     cursor: pointer;
 }
+.menu-link-on-view {
+    background: #333;
+    color: white;
+    transition: ease 0.3s all;
+} 
 /* Header Styles */
 .page__header {
     background: #fff;
