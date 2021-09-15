@@ -39,10 +39,10 @@ function mainFunction() {
 				sections[i].classList.add("your-active-class");
                                 li.classList.add('menu-link-on-view');
                                 if(sections[i].getAttribute("data-nav") = li.textContent) {
-                                  li.classList.add('menu-link-on-view')
+                                  li[i].classList.add('menu-link-on-view')
                                 }
                                 else {
-                                  li.classList.remove('menu-link-on-view')
+                                  li[i].classList.remove('menu-link-on-view')
                                 }
 			} else {
 				// if any section is not in the view then reomve the active class
