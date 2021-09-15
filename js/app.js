@@ -37,7 +37,7 @@ function mainFunction() {
 			if (positionFromTop >= 0 && positionFromTop <= 260) {
 				// add 'your-active-calss' to the section
 				sections[i].classList.add("your-active-class");
-                                li.classList.add('menu-link-on-view');
+                           
                                 
                                 li[i].classList.add('menu-link-on-view');
                                 
