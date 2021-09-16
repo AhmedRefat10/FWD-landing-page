@@ -1,4 +1,6 @@
 # FWD-landing-page
+BY: Ahmed Refat
+
 first get main variables which are (ul, sections)
 
 create funcion called "mainFunction" contains hole project 
@@ -26,3 +28,5 @@ inside "mainFunction":-
 
 
 finally call the mainfunction
+
+technologies : html , css3, pure javascript
